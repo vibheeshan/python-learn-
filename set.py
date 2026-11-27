@@ -42,29 +42,29 @@ print("Exists:", 20 in s)
 print("Not exists:", 50 not in s)
 
 
-# # 21. Difference update
-# a = {1, 2, 3}
-# b = {2, 3, 4}
-# a.difference_update(b)
-# print("Difference Update:", a)
+# 21. Difference update
+a = {1, 2, 3}
+b = {2, 3, 4}
+a.difference_update(b)
+print("Difference Update:", a)
 
-# # 22. Intersection update
-# a = {1, 2, 3}
-# b = {2, 3, 4}
-# a.intersection_update(b)
-# print("Intersection Update:", a)
+# 22. Intersection update
+a = {1, 2, 3}
+b = {2, 3, 4}
+a.intersection_update(b)
+print("Intersection Update:", a)
 
-# # 23. Symmetric difference update
-# a = {1, 2, 3}
-# b = {2, 3, 4}
-# a.symmetric_difference_update(b)
-# print("Symmetric Difference Update:", a)
+# 23. Symmetric difference update
+a = {1, 2, 3}
+b = {2, 3, 4}
+a.symmetric_difference_update(b)
+print("Symmetric Difference Update:", a)
 
-# # 24. Update using another set
-# a = {1, 2}
-# a.update({3, 4})
-# print("Set Update:", a)
+# 24. Update using another set
+a = {1, 2}
+a.update({3, 4})
+print("Set Update:", a)
 
-# # 25. Frozenset (immutable set)
-# fs = frozenset([10, 20, 30])
-# print("Frozenset:", fs)
+# 25. Frozenset (immutable set)
+fs = frozenset([10, 20, 30])
+print("Frozenset:", fs)
